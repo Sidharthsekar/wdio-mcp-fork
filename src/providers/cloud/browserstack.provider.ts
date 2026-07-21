@@ -53,7 +53,7 @@ export class BrowserStackProvider implements SessionProvider {
       platformName: platform,
       deviceName: options.deviceName,
       platformVersion: options.platformVersion,
-      deviceType: 'phone',
+      deviceType: 'real',
       appiumVersion: '3.1.0',
     };
     if (browserstackLocal) bstackOptions.local = true;
